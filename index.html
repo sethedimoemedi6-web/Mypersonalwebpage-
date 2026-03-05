@@ -81,16 +81,18 @@ body {
   font-size: 0.9rem;
 }
 
-/* Hero image */
+.hero-image {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically if you give the container height */
+}
+
 .hero-image img {
   width: 220px;
   height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  position: relative;
-  left: 100px; /* Moves the image 20px to the right from its original position */
-  top: 0px;  /* Moves the image 10px down from its original position */
-  
+}
 }
 
 </style>
